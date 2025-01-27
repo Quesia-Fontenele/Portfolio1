@@ -1,0 +1,464 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+.section {
+
+}
+body{
+    height: 100vh;
+    align-items: flex-end;
+  
+}
+section{
+    display: flex;
+    justify-content: space-between;
+
+    height: 10vh;
+}
+#logo{
+    display: flex;
+    gap: 10px;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    
+}
+#logo i{
+    color: orangered;
+    font-size: 24px;
+}
+
+#logo h1{
+    color: orangered;
+    font-size: 24px;
+}
+#menu{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container a{
+    color: black;
+    font-weight: 400;
+}
+#botao{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botao button{
+    width: 13vw;
+    background-color: orangered;
+    color: white;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+}
+.container:hover{
+    background-color: orangered;
+}
+#banner{
+    display: flex;
+    width: 100vw;
+    margin-bottom: 10vh;
+    height: 60vh;
+}
+#texts{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#image img{
+    width: 100vw;
+    height:60vh;
+    filter: brightness(15%);
+}
+#texts h4{
+    color: orangered;
+    font-size: 24px;
+    text-align: center;
+   
+}
+#texts h1{
+    color: white;
+    font-size: 42px;
+}
+#search{
+    display: flex;
+}
+#search button{
+    background-color: orangered;
+    width: 10vw;
+    height: 5vh;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+#search input{
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    font-size: 12px;
+    outline: none;
+}
+#search input::placeholder{
+    padding-left: 1vw;
+}
+#segundaparte{
+    background-color: rgba(128, 128, 128, 0.397);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+#parte1 {
+
+
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#titulos{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+#titulos p{
+    text-align: justify;
+    margin-bottom: 2vh;
+}
+#titulos h4{
+    color: orangered;
+    margin-bottom: 2vh;
+}
+#divisores{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#divisores span{
+    color: orangered;
+}
+#form{
+    background-color: orangered;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#form input{
+    width: 20vw;
+    height: 5vh;
+    margin: 5px;
+}
+#form button{
+    background-color: black;
+    color: white;
+    width: 20vw;
+    height: 5vh;
+}
+#parte3{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tabelaPrecos h6{
+    color: orangered;
+    display: flex;
+    justify-content: center;
+}
+#quadroprecos{
+    height: 50vh;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    
+}
+#quadro1{
+    background-color: rgba(128, 128, 128, 0.397);
+    margin: 1%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#preco1{
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plano1{
+    background-color: orangered;
+    height: 11vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+#descricao1{
+    height: 20vh;
+    width: 15vw;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+#botao1{
+    height: 15vh;
+    width: 15vw;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#quadro2{
+    background-color: rgba(128, 128, 128, 0.397);
+    margin: 1%;
+    
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#preco2{
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plano2{
+    background-color: orangered;
+    height: 11vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+#descricao2{
+    height: 20vh;
+    width: 15vw;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+#botao2{
+    height: 15vh;
+    width: 15vw;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#quadro3{
+    background-color: rgba(128, 128, 128, 0.397);
+    margin: 1%;
+    
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#preco3{
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plano3{
+    background-color: orangered;
+    height: 11vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+#descricao3{
+    height: 20vh;
+    width: 15vw;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+#botao3{
+    height: 15vh;
+    width: 15vw;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#botao3 button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 5vh;
+}
+#botao2 button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 5vh;
+}
+#botao1 button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 5vh;
+}
+#parte4{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+#quadrofunc{
+    margin-bottom: 10vh;
+}
+#delivery {  
+    margin: 3%;
+}
+#delivery h6{
+    color: orangered;
+    display: flex;
+    justify-content: center;
+}
+#delivery h1{
+    display: flex;
+    justify-content: center;
+}
+#fotofunc{
+    display: flex; 
+}
+#func1{
+    margin: 1%;
+    width: 16vw;
+    height: 1vh;
+}
+#nome1{
+    background-color: rgba(128, 128, 128, 0.397);
+    width: 13vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    height: 5vh;
+}
+#listra1{
+    width: 13vw;
+    height: 1vh;
+    background-color: orangered;
+}
+#func2{
+    width: 16vw;
+    margin: 1%;
+}
+#nome2{
+    background-color: rgba(128, 128, 128, 0.397);
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    height: 5vh;
+}
+#listra2{
+    width: 13vw;
+    height: 1vh;
+    background-color: orangered;
+}
+#func3{
+    width: 16vw;
+    margin: 1%;
+}
+#nome3{
+    background-color: rgba(128, 128, 128, 0.397);
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    height: 5vh;
+}
+#listra3{
+    width: 13vw;
+    height: 1vh;
+    background-color: orangered;
+}
+#func4{
+    width: 16vw;
+    margin: 1%;
+}
+#nome4{
+    background-color: rgba(128, 128, 128, 0.397);
+    width: 13vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+}
+#listra4{
+    width: 13vw;
+    height: 1vh;
+    background-color: orangered;
+}
+
+
+
+
+
