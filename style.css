@@ -363,6 +363,7 @@ section{
 }
 #quadrofunc{
     margin-bottom: 10vh;
+    width: 100%;
 }
 #delivery {  
     margin: 3%;
@@ -382,12 +383,15 @@ section{
 #func1{
     margin: 1%;
     width: 16vw;
-    height: 1vh;
+    
+}
+#func1 img{
+    height: 25vh;
+    width: 80%;  
 }
 #nome1{
     background-color: rgba(128, 128, 128, 0.397);
-    width: 13vw;
-    height: 5vh;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -396,7 +400,7 @@ section{
     height: 5vh;
 }
 #listra1{
-    width: 13vw;
+    width: 80%;
     height: 1vh;
     background-color: orangered;
 }
@@ -404,9 +408,13 @@ section{
     width: 16vw;
     margin: 1%;
 }
+#func2 img{
+    height: 25vh;
+    width: 80%;  
+}
 #nome2{
     background-color: rgba(128, 128, 128, 0.397);
-    width: 13vw;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -415,7 +423,7 @@ section{
     height: 5vh;
 }
 #listra2{
-    width: 13vw;
+    width: 80%;
     height: 1vh;
     background-color: orangered;
 }
@@ -423,9 +431,13 @@ section{
     width: 16vw;
     margin: 1%;
 }
+#func3 img{
+    height: 25vh;
+    width: 80%; 
+}
 #nome3{
     background-color: rgba(128, 128, 128, 0.397);
-    width: 13vw;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -434,7 +446,7 @@ section{
     height: 5vh;
 }
 #listra3{
-    width: 13vw;
+    width: 80%;
     height: 1vh;
     background-color: orangered;
 }
@@ -442,9 +454,13 @@ section{
     width: 16vw;
     margin: 1%;
 }
+#func4 img{
+    height: 25vh;
+    width: 80%; 
+}
 #nome4{
     background-color: rgba(128, 128, 128, 0.397);
-    width: 13vw;
+    width: 80%;
     height: 5vh;
     display: flex;
     justify-content: center;
@@ -453,7 +469,7 @@ section{
     font-size: 11px;
 }
 #listra4{
-    width: 13vw;
+    width: 80%;
     height: 1vh;
     background-color: orangered;
 }
